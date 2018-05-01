@@ -10,7 +10,7 @@ def line(katz_deli)
       new_line << "#{count}. #{i}"
       count += 1 
     end 
-    new_line.join
-    puts "The line is currently: #{new_line}"
+    final = new_line.join
+    puts "The line is currently: #{final}"
   end 
 end
