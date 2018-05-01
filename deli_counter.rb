@@ -21,7 +21,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name 
-  final_name = katz_deli.find_index
+  final_name = katz_deli.find_index(name)
   puts "Welcome, #{name}. You are number #{final_name} in line."
 =begin
   count = 1 
