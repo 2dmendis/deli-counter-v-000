@@ -24,11 +24,4 @@ def take_a_number(katz_deli, name)
   final_name = katz_deli.find_index(name)
   final_name += 1 
   puts "Welcome, #{name}. You are number #{final_name} in line."
-=begin
-  count = 1 
-  katz_deli.each do |i|
-    puts "Welcome, #{i}. You are number #{count} in line."
-    count += 1 
-  end
-=end 
 end 
