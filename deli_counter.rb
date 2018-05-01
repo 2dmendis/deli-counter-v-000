@@ -21,9 +21,11 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name 
+  =begin
   count = 1 
   katz_deli.each do |i|
     puts "Welcome, #{i}. You are number #{count} in line."
     count += 1 
-  end 
+  end
+  =end 
 end 
