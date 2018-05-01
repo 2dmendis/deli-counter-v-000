@@ -24,5 +24,6 @@ def take_a_number(katz_deli, name)
   count = 1 
   katz_deli.each do |i|
     puts "Welcome #{i}. You are number #{count} in line."
+    count += 1 
   end 
 end 
