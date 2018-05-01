@@ -7,7 +7,11 @@ def line(katz_deli)
     new_line = []
     count = 1
     katz_deli.each do |i|
-      new_line << "#{count}. #{i}"
+      if count > 1 
+        new_line << " #{count}. #{i}"
+      else 
+        new_line << "#{count}. #{i}"
+      end 
       count += 1 
     end 
     final = new_line.join
